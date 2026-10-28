@@ -1,0 +1,2 @@
+# Predicción: Riesgo de impago en crediticio con ML
+Proyecto de clasificación de riesgo de impago crediticio que compara cuatro modelos de clasificación. Incluye análisis exploratorio de datos (*EDA*), pre-procesamiento a prueba de fugas de información (*data leakage*), manejo de clases desequilibradas (*stratify*), optimización de los modelos (*Grid Search*) y evaluación de rendimiento a través de métricas cómo ROC-AUC, Gini y K-S. El modelo final, un XGBoost, sirve de apoyo a una estrategia de concesión de crédito fundamentada en deciles de riesgo.
