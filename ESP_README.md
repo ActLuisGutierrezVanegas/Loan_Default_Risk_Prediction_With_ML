@@ -36,7 +36,7 @@ Para poder llevar a cabo el entrenamiento de los 4 modelos se siguieron los paso
 <img src = "data/imagenes/Target_dist.JPG" alt = "Target distribution" width = "400">
 </div> 
   
-- División de datos: Entrenamiento `70%` / Validation `15%` / Prueba `15%` preservando la distribución original de la variable objetivo mediante estratificación.
+- División de datos: Entrenamiento `70%` / Validación `15%` / Prueba `15%` preservando la distribución original de la variable objetivo mediante estratificación.
   
 - Imputación de valores: Los valores faltantes fueron sustituidos utilizando la mediana calculada únicamente sobre el conjunto de entrenamiento, reduciendo el efecto de valores extremos y evitando data leakage.
   
@@ -56,7 +56,7 @@ Los modelos fueron evaluados mediante `ROC-AUC`, `Coeficiente de Gini` y `K-S (*
 
 Después del proceso de optimización mediante Grid Search, los cuatro modelos fueron evaluados sobre el conjunto de validación. `XGBoost` tuvo el mejor desempeño general, con un ROC-AUC de 0.7059, un Gini de 0.4117 y un K-S de 0.3067, seguido muy de cerca por `Gradient Boosting`.
 
-<div align = "left">
+<div align = "center">
 <img src = "data/imagenes/Metrics_credit_risk.JPG" alt = "Optimized model performance on validation set" width="400">
 </div> 
 
