@@ -54,7 +54,7 @@ Los modelos fueron evaluados mediante `ROC-AUC`, `Coeficiente de Gini` y `K-S (*
 
 ### Rendimiento de los modelos
 
-Después del proceso de optimización mediante Grid Search, los cuatro modelos fueron evaluados sobre el conjunto de validación. `XGBoost` tuvo el mejor desempeño general, con un ROC-AUC de 0.7032, un Gini de 0.4065 y un K-S de 0.2979, seguido muy de cerca por `Gradient Boosting`.
+Después del proceso de optimización mediante Grid Search, los cuatro modelos fueron evaluados sobre el conjunto de validación. `XGBoost` tuvo el mejor desempeño general, con un ROC-AUC de 0.7059, un Gini de 0.4117 y un K-S de 0.3067, seguido muy de cerca por `Gradient Boosting`.
 
 <div align = "left">
 <img src = "data/imagenes/Metrics_credit_risk.JPG" alt = "Optimized model performance on validation set" width="400">
